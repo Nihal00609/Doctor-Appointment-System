@@ -1,0 +1,82 @@
+.main{
+    height: 100vh;
+    padding: 10px;
+}
+.layout{
+    display: flex;
+}
+
+.sidebar{
+    min-height: 100%;
+    width: 300px;
+    margin-right: 20px;
+    box-shadow: 0 0 2px gray;
+    border-radius: 5px;
+    background-color: rgb(51, 1, 1);
+    color: aliceblue;
+}
+.content{
+    height: 100%;
+    width: 100%;
+}
+
+.logo h6{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 20px 0px ;
+}
+
+.header{
+    height: 10vh;
+    margin-bottom: 20px;
+    box-shadow: 0 0 2px gray;
+    background-color: white;
+}
+.body{
+    height: 90vh;
+    margin-bottom: 20px;
+    box-shadow: 0 0 2px gray;
+    background-color: white;
+}
+
+.menu{
+    margin-top: 50px;
+}
+.menu-item{
+    margin-top: 30px;
+}
+.menu-item a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.menu-item i{
+    font-size: 1.rem;
+    margin: 0 15px;
+}
+.active{
+    background-color: white;
+    padding: 10px;
+}
+.active a,.active i{
+    color: rgb(48, 1, 1);
+}
+
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 50px;
+    margin: 0 15px;
+}
+.header-content a{
+    text-decoration: none;
+    color: blue;
+    text-transform: uppercase;
+    margin: 0 10px;
+    font-size: 1.2rem;
+}
+.header-content i{
+    margin-right: 15px;
+    font-size: 1.2rem;
+}
