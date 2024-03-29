@@ -27,6 +27,9 @@ const Login = () => {
     }
     return (
         <>
+            <div  >
+            <h1 className='text-center p-3 bg-danger bg-gradient text-white'>Doctor Appointment System</h1>
+                <hr />
             <div className='form-container'>
                 <Form layout='vertical' onFinish={onfinishHandler} className='register-form'>
                     <h3 className='text-center'>Login Form</h3>
@@ -40,6 +43,7 @@ const Login = () => {
                     <button className='btn btn-primary' type='submit'>Login</button>
 
                 </Form>
+            </div>
             </div>
         </>
     )

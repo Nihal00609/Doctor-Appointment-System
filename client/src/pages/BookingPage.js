@@ -113,7 +113,7 @@ const BookingPage = () => {
               Timings : {doctors.timings && doctors.timings[0]} -{" "}
               {doctors.timings && doctors.timings[1]}{" "}
             </h4>
-            <div className="d-flex flex-column w-50">
+            <div className="d-flex flex-column col-lg-6">
             <DatePicker
                 aria-required={"true"}
                 className="m-2"

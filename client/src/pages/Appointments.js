@@ -59,6 +59,7 @@ const Appointments = () => {
     {
       title: "Status",
       dataIndex: "status",
+      ellipsis : true,
     },
   ];
 

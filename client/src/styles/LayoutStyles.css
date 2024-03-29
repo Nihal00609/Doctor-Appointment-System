@@ -1,14 +1,13 @@
 .main{
     height: 100vh;
-    padding: 10px;
 }
 .layout{
     display: flex;
 }
 
 .sidebar{
-    min-height: 100%;
-    width: 300px;
+    min-height: 100vh;
+    width: 27vw;
     margin-right: 20px;
     box-shadow: 0 0 2px gray;
     border-radius: 5px;
@@ -27,14 +26,14 @@
 }
 
 .header{
-    height: 10vh;
-    margin-bottom: 20px;
+    height: 10%;
+    margin: 10px 0 20px;
     box-shadow: 0 0 2px gray;
     background-color: white;
 }
 .body{
-    height: 90vh;
-    margin-bottom: 20px;
+    height: 90%;
+    /* margin-bottom: 20px; */
     box-shadow: 0 0 2px gray;
     background-color: white;
 }
@@ -44,11 +43,15 @@
 }
 .menu-item{
     margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 .menu-item a{
     color: aliceblue;
-    text-decoration: none;
+    text-decoration:none;
     font-size: 1.2rem;
+    word-break:break-all;
 }
 .menu-item i{
     font-size: 1.rem;
@@ -66,7 +69,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    height: 50px;
+    height: 9vh;
     margin: 0 15px;
 }
 .header-content a{

@@ -65,6 +65,7 @@ const DoctorAppointments = () => {
     {
       title: "Status",
       dataIndex: "status",
+      ellipsis : true
     },
     {
       title: "Actions",

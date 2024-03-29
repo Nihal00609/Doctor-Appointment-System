@@ -71,6 +71,7 @@ const Doctors = () => {
         {
             title: "Status",
             dataIndex: "status",
+            ellipsis : true,
         },
         {
             title: "Actions",
@@ -85,7 +86,7 @@ const Doctors = () => {
                             Approve
                         </button>
                     ) : (
-                        <button className="btn btn-danger">Reject</button>
+                        <button className="btn btn-danger ">Reject</button>
                     )}
                 </div>
             ),

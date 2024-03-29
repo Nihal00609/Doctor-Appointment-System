@@ -37,10 +37,11 @@ const Users = () => {
         },
         {
             title: "Email",
-            dataIndex: "email"
+            dataIndex: "email",
+            ellipsis : true,
         },
         {
-            title: "IsDoctor",
+            title: "Doctor",
             dataIndex: "isDoctor",
             render: (text,record) => (
                 <span>{record.isDoctor ? 'Yes' : 'No'}</span>

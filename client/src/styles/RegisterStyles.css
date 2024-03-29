@@ -2,12 +2,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 70vh;
 }
 
 .register-form{
     border: 1px solid gray;
     padding: 30px;
-    width: 30%;
-    
+    width: 350px;
 }
